@@ -11,7 +11,7 @@ describe ('record store', function(){
 
   it('can see properties of record', function(){
     // record.inspectRecord(record)
-    assert.strictEqual('artist: Justin Bieber title: Greatest Hits genre: pop price: 999', record.inspectRecord())
+    assert.strictEqual(' artist: Justin Bieber title: Greatest Hits genre: pop price: 999', record.inspectRecord())
 
   }
 
