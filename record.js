@@ -8,10 +8,11 @@ var Record = function(artist, title, genre, price){
 
 Record.prototype = {
  inspectRecord: function(record){
-  console.log(record)
-}
+  return 'artist: ' + this.artist.toString() + ' title: ' + this.title.toString() + ' genre: ' + this.genre.toString() + ' price: ' + this.price.toString()
+ }
 
 }
+
 
 
 
